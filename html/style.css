@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.fundo{
+    background-color: aqua;
+}
+
+footer{
+    background-image: url(/img/chao_fundo.webp);
+    height: 80px;
+}
