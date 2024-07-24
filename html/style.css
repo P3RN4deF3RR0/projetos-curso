@@ -6,11 +6,70 @@
     font-family: "Poppins", sans-serif;
 }
 
-.fundo{
-    background-color: aqua;
+.container{
+    margin: 0 auto;
 }
+
+.fundo{
+    background-color: rgb(86, 175, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 100vh;
+}
+
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(87, 166, 235);
+    opacity: 85%;
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+.calculadora h1{
+    color: aliceblue;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 2px;
+    color: aliceblue;
+    background-color: rgb(53, 52, 52);
+}
+
+.botao:hover{
+    background-color: rgb(31, 31, 31);
+    cursor: pointer;
+}
+
+.v-na{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top: -200px;
+    left: 650px;
+}
+
+.v-na:hover{
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
 
 footer{
     background-image: url(/img/chao_fundo.webp);
     height: 80px;
+    position: relative;
+    top: 421px;
 }
