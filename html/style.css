@@ -6,8 +6,13 @@
     font-family: "Poppins", sans-serif;
 }
 
+body
+{
+    background-color: rgb(86, 175, 235);
+}
 .container{
     margin: 0 auto;
+    height: 100%;
 }
 
 .fundo{
@@ -15,23 +20,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 100vh;
+    height: 95%;
 }
-
 
 .calculadora{
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: rgb(87, 166, 235);
     opacity: 85%;
     border-radius: 15px;
     padding: 15px;
-    
+    position: absolute;
+    top: 25%;
 }
 
 .calculadora h1{
     color: aliceblue;
+    text-align: center;
 }
 
 .botao{
@@ -51,9 +56,9 @@
 .v-na{
     border: none;
     background-color: transparent;
-    position: relative;
-    top: -200px;
-    left: 650px;
+    position: absolute;
+    top: 47%;
+    left: 81%;
 }
 
 .v-na:hover{
@@ -66,10 +71,38 @@
     height: 60px;
 }
 
+.ambiente{   
+    position: absolute;
+    top: 67%;
+    left: 75%;
+}
+
+.amb{
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 55px;
+}
+
+.ambiente2{
+    position: absolute;
+    top: 67%;
+    left: 65%;
+}
+
+.amb2{
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 55px;
+}
 
 footer{
     background-image: url(/img/chao_fundo.webp);
-    height: 80px;
-    position: relative;
-    top: 421px;
+    height: 5%;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
 }
