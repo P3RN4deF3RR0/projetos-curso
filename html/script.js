@@ -23,7 +23,7 @@ function calculate() {
             var avaliacao = eval(resultadoCorrigido);
             // Verificar se o resultado é Infinity ou -Infinity
             ((Infinity === avaliacao)) || ((-Infinity === avaliacao)) ?
-            document.getElementById('resultado').innerText = 'Impossível dividir' :
+            document.getElementById('resultado').innerText = 'Inexistente' :
             document.getElementById('resultado').innerText = avaliacao
 
         } catch (e) {
